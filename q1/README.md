@@ -7,7 +7,7 @@ A TypeScript library to calculate the Merkle Root of a string array, following B
 Clone the repository and install the necessary development dependencies:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/sueda-moi/theSQA
 cd q1
 npm install
 ```
