@@ -1,9 +1,3 @@
-# Software Engineering Practice Projects
-
-This repository contains a collection of self-contained solutions to various software engineering problems and algorithmic challenges. Each project is designed to demonstrate best practices in terms of code quality, maintainability, and correctness.
-
-The primary goal is to showcase the ability to understand complex requirements and deliver robust, well-tested code.
-
 ## Projects Overview
 
 This collection includes the following projects:
