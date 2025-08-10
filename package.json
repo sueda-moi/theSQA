@@ -1,0 +1,17 @@
+{
+  "name": "thesqa",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "services/*",
+    "proof-of-reserve-api"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

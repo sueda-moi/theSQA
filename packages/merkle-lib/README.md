@@ -8,7 +8,6 @@ Clone the repository and install the necessary development dependencies:
 
 ```bash
 git clone https://github.com/sueda-moi/theSQA
-cd q1
 npm install
 ```
 
@@ -17,7 +16,7 @@ npm install
 You can import and use the `MerkleTree` class to calculate a Merkle Root.
 
 ```typescript
-import { MerkleTree } from './src/MerkleTree';
+import { MerkleTree } from './merkle-lib/src/MerkleTree';
 
 const leaves = ["aaa", "bbb", "ccc", "ddd", "eee"];
 const merkleRoot = MerkleTree.calculateRoot(leaves);
@@ -33,6 +32,7 @@ To run the included tests and verify the correctness of the implementation, exec
 ```bash
 npm test
 ```
+
 The test suite will confirm that the library produces the correct Merkle Root for the example provided in the challenge.
 
 ## Implementation Details & Logic

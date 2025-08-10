@@ -1,14 +1,16 @@
 {
-  "name": "q1",
+  "name": "merkle-lib",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "dist/MerkleTree.js",  
+  "types": "dist/MerkleTree.d.ts", 
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "^24.2.1",
